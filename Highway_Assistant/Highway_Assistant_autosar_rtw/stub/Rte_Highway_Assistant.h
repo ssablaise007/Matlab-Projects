@@ -1,0 +1,71 @@
+/* This file contains stub implementations of the AUTOSAR RTE functions.
+   The stub implementations can be used for testing the generated code in
+   Simulink, for example, in SIL/PIL simulations of the component under
+   test. Note that this file should be replaced with an appropriate RTE
+   file when deploying the generated code outside of Simulink.
+
+   This file is generated for:
+   Atomic software component:  "Highway_Assistant"
+   ARXML schema: "R21-11"
+   File generated on: "21-Apr-2026 17:56:48"  */
+
+#ifndef Rte_Highway_Assistant_h
+#define Rte_Highway_Assistant_h
+#include "Rte_Type.h"
+#include "Compiler.h"
+
+/* Data access functions */
+#define Rte_IRead_Highway_Assistant_Step_Enable_Display_Enable_Display Rte_IRead_Highway_Assistant_Highway_Assistant_Step_Enable_Display_Enable_Display
+
+UInt8 Rte_IRead_Highway_Assistant_Step_Enable_Display_Enable_Display(void);
+
+#define Rte_IRead_Highway_Assistant_Step_Highway_Input_Signal_Highway_Input_Signal Rte_IRead_Highway_Assistant_Highway_Assistant_Step_Highway_Input_Signal_Highway_Input_Signal
+
+UInt8 Rte_IRead_Highway_Assistant_Step_Highway_Input_Signal_Highway_Input_Signal
+  (void);
+
+#define Rte_IRead_Highway_Assistant_Step_Input_Switch_Input_Switch Rte_IRead_Highway_Assistant_Highway_Assistant_Step_Input_Switch_Input_Switch
+
+UInt8 Rte_IRead_Highway_Assistant_Step_Input_Switch_Input_Switch(void);
+
+#define Rte_IRead_Highway_Assistant_Step_Lane_Input_Signal_Lane_Input_Signal Rte_IRead_Highway_Assistant_Highway_Assistant_Step_Lane_Input_Signal_Lane_Input_Signal
+
+UInt8 Rte_IRead_Highway_Assistant_Step_Lane_Input_Signal_Lane_Input_Signal(void);
+
+#define Rte_IWrite_Highway_Assistant_Step_Display_Mode_1_Display_Mode_1 Rte_IWrite_Highway_Assistant_Highway_Assistant_Step_Display_Mode_1_Display_Mode_1
+
+void Rte_IWrite_Highway_Assistant_Step_Display_Mode_1_Display_Mode_1(UInt8 u);
+
+#define Rte_IWriteRef_Highway_Assistant_Step_Display_Mode_1_Display_Mode_1 Rte_IWriteRef_Highway_Assistant_Highway_Assistant_Step_Display_Mode_1_Display_Mode_1
+
+UInt8* Rte_IWriteRef_Highway_Assistant_Step_Display_Mode_1_Display_Mode_1(void);
+
+#define Rte_IWrite_Highway_Assistant_Step_Display_Mode_2_Display_Mode_2 Rte_IWrite_Highway_Assistant_Highway_Assistant_Step_Display_Mode_2_Display_Mode_2
+
+void Rte_IWrite_Highway_Assistant_Step_Display_Mode_2_Display_Mode_2(UInt8 u);
+
+#define Rte_IWriteRef_Highway_Assistant_Step_Display_Mode_2_Display_Mode_2 Rte_IWriteRef_Highway_Assistant_Highway_Assistant_Step_Display_Mode_2_Display_Mode_2
+
+UInt8* Rte_IWriteRef_Highway_Assistant_Step_Display_Mode_2_Display_Mode_2(void);
+
+#define Rte_IWrite_Highway_Assistant_Step_Display_Mode_3_Display_Mode_3 Rte_IWrite_Highway_Assistant_Highway_Assistant_Step_Display_Mode_3_Display_Mode_3
+
+void Rte_IWrite_Highway_Assistant_Step_Display_Mode_3_Display_Mode_3(UInt8 u);
+
+#define Rte_IWriteRef_Highway_Assistant_Step_Display_Mode_3_Display_Mode_3 Rte_IWriteRef_Highway_Assistant_Highway_Assistant_Step_Display_Mode_3_Display_Mode_3
+
+UInt8* Rte_IWriteRef_Highway_Assistant_Step_Display_Mode_3_Display_Mode_3(void);
+
+#define Rte_IWrite_Highway_Assistant_Step_Display_Mode_4_Display_Mode_4 Rte_IWrite_Highway_Assistant_Highway_Assistant_Step_Display_Mode_4_Display_Mode_4
+
+void Rte_IWrite_Highway_Assistant_Step_Display_Mode_4_Display_Mode_4(UInt8 u);
+
+#define Rte_IWriteRef_Highway_Assistant_Step_Display_Mode_4_Display_Mode_4 Rte_IWriteRef_Highway_Assistant_Highway_Assistant_Step_Display_Mode_4_Display_Mode_4
+
+UInt8* Rte_IWriteRef_Highway_Assistant_Step_Display_Mode_4_Display_Mode_4(void);
+
+/* Entry point functions */
+extern FUNC(void, Highway_Assistant_CODE) Highway_Assistant_Init(void);
+extern FUNC(void, Highway_Assistant_CODE) Highway_Assistant_Step(void);
+
+#endif

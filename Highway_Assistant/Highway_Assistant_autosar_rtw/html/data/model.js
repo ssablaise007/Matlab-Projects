@@ -1,0 +1,1 @@
+var modelInfo = {model:"Highway_Assistant"};var modelHierarchy=[{model:"Highway_Assistant",relativePath:"_internal.html",parent:"null"},];
